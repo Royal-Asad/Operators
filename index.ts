@@ -84,3 +84,5 @@ if (age >= 18) {
 } else {
   console.log("Not Eligible to Vote");
 }
+
+// Question-11:
