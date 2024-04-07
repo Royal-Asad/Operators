@@ -135,7 +135,7 @@ else {
     console.log("Zero");
 }
 // Question-16: Multiplication Table
-let num = 5;
+let num = 3;
 let i = 1;
 console.log(num + "x" + i + "=" + num * i++);
 console.log(num + "x" + i + "=" + num * i++);
