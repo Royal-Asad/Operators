@@ -186,3 +186,5 @@ console.log(num + "x" + i + "=" + num * i++);
 console.log(num + "x" + i + "=" + num * i++);
 console.log(num + "x" + i + "=" + num * i++);
 console.log(num + "x" + i + "=" + num * i++);
+
+//Question-17
