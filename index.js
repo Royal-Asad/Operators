@@ -9,9 +9,12 @@ console.log(a + b);
 console.log(a - b);
 console.log(a * b);
 console.log(a / b);
+console.log(a % b);
+console.log(a ** b);
 // Question-3: Swapping Values
 let c = 7;
 let d = 8;
+console.log("Before Swapping Values." + " c = ", c, " , and d = ", d, " .");
 c++;
 d--;
 console.log(c);
@@ -27,17 +30,26 @@ let _Z = _X % _Y;
 console.log(_Z);
 // Question-6: Increment Challenge
 let o = 0;
+console.log("Before Increment o = ", o);
 o++;
-console.log(o);
+console.log("After Increment o = ", o);
 // Question-7: Logical Gates
 let p = true;
 let q = false;
 let r = true;
+console.log(p && p); // true
+console.log(p && q); // false
+console.log(p && r); // true
+console.log(q && r); // false
+console.log(p || q); // true
+console.log(p || r); //true
+console.log(q || r); //true
+console.log(q || q); //false
+console.log(!p); //false
+console.log(!q); //true
+console.log(!r); //false
 console.log(p && q && r);
 console.log(p || q || r);
-console.log(!p);
-console.log(!q);
-console.log(!r);
 // Question-8: Compound Assignment
 let s = 10;
 s += 5;
@@ -100,27 +112,17 @@ else {
 }
 console.log("The maximum of", x, ",", y, ", and", z, "is:", max);
 // Question-13: Leap Year Checker
-let year = 2020;
+let year = 2021;
 if (year % 4 == 0) {
-    console.log(year + " is a Leap Year");
-}
-else if (year % 100 == 0) {
-    console.log(year + " is not a Leap Year");
-}
-else if (year % 400 == 0) {
-    console.log(year + " is a Leap Year");
+    console.log(year, " is a Leap Year.");
 }
 else {
-    console.log(year + " is not a Leap Year");
+    console.log(year, " is not a Leap Year.");
 }
 // Question-14: Fahrenheit to Celsius Converter
 let fahrenheit = 98.6;
 let celsius = (5 / 9) * (fahrenheit - 32);
-console.log(fahrenheit +
-    "°F is equal to " +
-    celsius +
-    "°C" +
-    ". The normal Human Body temperature.");
+console.log(fahrenheit, "°F is equal to ", celsius, "°C" + ". The normal Human Body temperature.");
 // Question-15: Positive, Negative, or Zero
 let numb = -8;
 // numb = 10;
@@ -137,13 +139,13 @@ else {
 // Question-16: Multiplication Table
 let num = 3;
 let i = 1;
-console.log(num + "x" + i + "=" + num * i++);
-console.log(num + "x" + i + "=" + num * i++);
-console.log(num + "x" + i + "=" + num * i++);
-console.log(num + "x" + i + "=" + num * i++);
-console.log(num + "x" + i + "=" + num * i++);
-console.log(num + "x" + i + "=" + num * i++);
-console.log(num + "x" + i + "=" + num * i++);
-console.log(num + "x" + i + "=" + num * i++);
-console.log(num + "x" + i + "=" + num * i++);
-console.log(num + "x" + i + "=" + num * i++);
+console.log(num, "x" + i, "=", num * i++);
+console.log(num, "x" + i, "=", num * i++);
+console.log(num, "x" + i, "=", num * i++);
+console.log(num, "x" + i, "=", num * i++);
+console.log(num, "x" + i, "=", num * i++);
+console.log(num, "x" + i, "=", num * i++);
+console.log(num, "x" + i, "=", num * i++);
+console.log(num, "x" + i, "=", num * i++);
+console.log(num, "x" + i, "=", num * i++);
+console.log(num, "x" + i, "=", num * i++);
