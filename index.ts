@@ -31,17 +31,17 @@ console.log("After Swapping Values." + " c = ", c, " , and d = ", d, " .");
 
 let message: string = "how are you?";
 
-// message = 10;
+// message = 1&
 
 console.log(message);
 
 // Question-5: Modulus Operator
 
-let _X: number = 10;
-let _Y: number = 20;
-let _Z = _X % _Y;
+let _x: number = 10;
+let _y: number = 20;
+let _z = _x % _y;
 
-console.log(_Z);
+console.log(_z);
 
 // Question-6: Increment Challenge
 

@@ -20,13 +20,13 @@ d--;
 console.log("After Swapping Values." + " c = ", c, " , and d = ", d, " .");
 // Question-4: Type Annotation (TypeScript)
 let message = "how are you?";
-// message = 10;
+// message = 1&
 console.log(message);
 // Question-5: Modulus Operator
-let _X = 10;
-let _Y = 20;
-let _Z = _X % _Y;
-console.log(_Z);
+let _x = 10;
+let _y = 20;
+let _z = _x % _y;
+console.log(_z);
 // Question-6: Increment Challenge
 let o = 0;
 console.log("Before Increment o = ", o);
