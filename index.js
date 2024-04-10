@@ -17,8 +17,7 @@ let d = 8;
 console.log("Before Swapping Values." + " c = ", c, " , and d = ", d, " .");
 c++;
 d--;
-console.log(c);
-console.log(d);
+console.log("After Swapping Values." + " c = ", c, " , and d = ", d, " .");
 // Question-4: Type Annotation (TypeScript)
 let message = "how are you?";
 // message = 10;
